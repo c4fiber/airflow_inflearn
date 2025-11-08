@@ -9,7 +9,6 @@ import pendulum
 
 from airflow import DAG
 from airflow.decorators import dag, task
-from airflow.operators.python import is_venv_installed
 
 log = logging.getLogger(__name__)
 
